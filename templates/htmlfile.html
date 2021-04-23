@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" href="/static/main.css"> 
+	<style type="text/css">
+	body{
+		    height: 100%;
+		    width: 100%;
+		    overflow: auto;
+		    margin: 0;
+			padding: 8px;
+
+			background: url(/static/photos/pexels-ben-mack-5326948.jpg);
+		}
+		h1{
+			color:black;
+			text-align: center;
+			font-family: 'Dancing Script';
+	        font-size: 80px;
+	        margin-bottom: 30px;
+		}
+		table,th,td{
+			border: 1px solid black;
+			border-collapse: collapse;
+			margin: 0;
+			padding: 8px;
+
+
+		}
+		button {
+			 background-color: black;
+             border: none;
+             color: white;
+  			 padding: 15px 32px;
+             text-align: center;
+             text-decoration: none;
+             display: inline-block;
+             font-size: 16px;
+             margin: 4px 2px;
+             cursor: pointer;
+
+ 
+}
+
+	</style>
+		<title>Intelligent Web Prototype</title>
+</head>
+
+
+<body>
+	
+	<h1>Intelligent Web Prototype</h1>
+	<b>ProductId: </b> <input type="text" id="id"/><br/><br/>
+	<button onclick="displayData()">Fetch Data</button><br/><br/>
+	<p>
+		<b>Eg:</b> <br> <b> Product Id:</b> Integration_Test_Product
+	</p>
+	<div id="Product">
+		<table id="prodTable" border: 1px solid black>
+			 
+		</table>
+		<br/><br/>
+		<table id="sizeChart">
+			
+		</table>
+	</div>
+	<script src="/static/JS/data.js">
+	
+	</script>
+
+</body>
+</html>
+
+

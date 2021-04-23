@@ -1,0 +1,7 @@
+summary: "Swagger API to view the items within Database"
+description: "Get all the products"
+produces:
+  -"appliction/json"
+responses:
+  405:
+    description: "Invalid Input"
